@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
-    
-    border: 1px solid red;
 
-}
 
 header{
     
@@ -22,15 +18,17 @@ header{
 
 .logo{
     width: 60%;
+    margin-left: 13%;
     height: auto;
 }
 main, footer{
-    width: 80%;
+    width: 74%;
     margin: auto;
 }
 
 h1{
-   font-size: 2.6rem;
+   font-size: 2.5rem;
+   text-align:left;
    
 }
 
@@ -52,12 +50,19 @@ h1{
     margin-bottom: 2%;
 }
 
+.desc{
+    font-size: 0.7rem;
+    margin-bottom:2%;
+}
+
+
 .yellow{
     background-color: yellow;
 }
 
-.list{
-    margin:2% auto;
+.margin{
+    margin: 2% 0 2% 1.5%;
+
 }
 
 .table{
@@ -68,6 +73,7 @@ thead>tr{
     background-color: rgb(62, 177, 248);
     text-align: left;
 }
+
 
 .white{
     color:white;
