@@ -65,8 +65,17 @@ h1{
 
 }
 
-.table{
+table{
+    
+    border-collapse: collapse;
+    
+}
+.table-size{
     width: 33%;
+
+}
+tbody>tr{
+    height:20%;
 }
 
 thead>tr{
