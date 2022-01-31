@@ -5,10 +5,16 @@
 }
 
 header{
+    
     height: 80px;
     background-image: url(./img/pattern.png);
     background-size: auto 200%;
     background-repeat: repeat;
     background-color: rgb(0, 183, 255);
+    display: flex;
 }
 
+.name-site{
+    margin-left: 20%;
+    align-self: flex-end;
+}
